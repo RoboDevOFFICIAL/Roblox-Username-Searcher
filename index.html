@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Player Search</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="roblox_logo.png" alt="Roblox Logo">
+        <h1>Roblox Player Search</h1>
+        <p>Search any Roblox user you want!</p>
+        <p>Enter a player's Username:</p>
+        <input type="text" id="searchInput" placeholder="Username">
+        <button onclick="searchPlayer()">Search</button>
+        <p id="errorMessage" style="color: red;"></p>
+        
+        <button onclick="goToCreatorProfile()">Creator</button>
+    </div>
+
+    <!-- White dots for background animation -->
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
